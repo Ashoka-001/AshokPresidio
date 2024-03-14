@@ -13,7 +13,7 @@ const multer = require("multer");
 const mongoose = require("mongoose");
 // connection with atlas
 const uri = process.env.uri;
-// console.log(uri)
+
 // mongoose.connect(uri)
 // .then(() => console.log('Database connected successfully'))
 // .catch((err) => console.error('Database connection error: ', err));
